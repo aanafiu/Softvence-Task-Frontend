@@ -4,7 +4,7 @@ import { useState } from "react";
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="relative flex items-center justify-between py-4 h-full w-full z-50">
+    <div className="relative flex items-center justify-between py-4  w-[95%]  sm:w-[90%] md:w-[85%] lg:w-[75%] mx-auto z-50">
       {/* left */}
       <section className="flex items-center w-[100%] h-full">
         {/* Logo section */}

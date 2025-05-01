@@ -6,10 +6,10 @@ import { Outlet } from 'react-router';
 const MainLayout = () => {
     return (
         <div className='w-full'>
-            <nav className='w-[95%] sm:w-[90%] md:w-[85%] lg:w-[75%] mx-auto sticky top-0 z-50'>
+            <nav className='backdrop-blur-2xl sticky top-0 z-50'>
                 <Nav/>
             </nav>
-            <section className="w-[95%] sm:w-[90%] md:w-[85%] lg:w-[75%] mx-auto">
+            <section>
                 <Outlet></Outlet>
             </section>
             <footer>
