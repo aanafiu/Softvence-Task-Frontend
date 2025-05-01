@@ -1,9 +1,16 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import {
+  RouterProvider,
+} from "react-router";
+
+import ReactDOM from "react-dom/client";
+import { router } from './Routes/router';
+
+// Custom CSS
 import './index.css'
 
-createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <h1 className='text-4xl font-PJS'>React App</h1>  
+    <RouterProvider router={router} /> 
   </StrictMode>,
 )
