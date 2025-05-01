@@ -121,7 +121,7 @@ const LiveAiCoach = () => {
                 </div>
 
                 {/* Center: Control */}
-                <div className='flex flex-col text-3xl gap-5 h-[70%] py-4 px-2 my-auto rounded-full bg-white text-Primary'>
+                <div className='flex justify-center lg:flex-col text-3xl gap-5 h-[70%] py-4 px-2 my-auto rounded-full bg-white text-Primary'>
                     <button className='hover:bg-blue-500 rounded-full p-2'><MdOutlineRestartAlt /></button>
                     <button className='hover:bg-blue-500 rounded-full p-2'><BiLike /></button>
                     <button className='hover:bg-blue-500 rounded-full p-2'><BiDislike /></button>
