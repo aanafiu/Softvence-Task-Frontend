@@ -5,11 +5,11 @@ import { Outlet } from 'react-router';
 
 const MainLayout = () => {
     return (
-        <div className='w-[95%] sm:w-[90%] md:w-[85%] lg:w-[75%] mx-auto'>
-            <nav className='h-full w-full'>
+        <div className='w-full'>
+            <nav className='w-[95%] sm:w-[90%] md:w-[85%] lg:w-[75%] mx-auto sticky top-0 z-50'>
                 <Nav/>
             </nav>
-            <section className="hero">
+            <section className="w-[95%] sm:w-[90%] md:w-[85%] lg:w-[75%] mx-auto">
                 <Outlet></Outlet>
             </section>
             <footer>

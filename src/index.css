@@ -10,9 +10,52 @@
   --font-Qtl: "Questrial", sans-serif;
   --font-PJS:  "Plus Jakarta Sans", sans-serif;
   --color-Primary: rgba(2, 4, 7, 1);
+  --color-Secondary: rgba(17, 17, 17, 1);
   --color-AllParaText: rgba(5, 19, 29, 0.7);
 }
 
+body{
+  background-image: url("../src/assets/BackgroundNoice.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100svh;
+  width: 100svw;
+  position: relative;
+}
+/* Hero Section Image Custom Effect */
+.image1 {
+  transform: translate(-20px, -20px);
+  animation: float1 6s ease-in-out infinite;
+}
+
+.image2 {
+  transform: translate(20px, 20px);
+  animation: float2 6s ease-in-out infinite;
+}
+
+/* Keyframes for up-to-down movement */
+@keyframes float1 {
+  0%, 100% {
+      transform: translate(10px, -10px); /* Start at top */
+  }
+  50% {
+      transform: translate(-20px, 10px); /* Move to bottom */
+  }
+}
+
+/* Keyframes for left-to-right movement */
+@keyframes float2 {
+  0%, 100% {
+      transform: translate(-10px, 10px); /* Start at left */
+  }
+  50% {
+      transform: translate(20px, 20px); /* Move to right */
+  }
+}
+
+
+/* Gradiant */
 
 .blue-gradient {
   background-image: linear-gradient(135deg, #1e3c72, #2a5298);

@@ -5,7 +5,6 @@ import {
 
 import ReactDOM from "react-dom/client";
 import { router } from './Routes/router';
-
 // Custom CSS
 import './index.css'
 

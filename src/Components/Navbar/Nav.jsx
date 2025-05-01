@@ -100,7 +100,7 @@ const Nav = () => {
       )}
       {/* Button */}
       <div className="hidden md:flex md:items-center md:justify-end w-fit">
-        <Link className="rounded-full text-Primary bg-transparent whitespace-nowrap hover:bg-blue-500 font-bold text-base btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">
+        <Link className="rounded-full text-Primary border-AllParaText bg-transparent whitespace-nowrap hover:bg-blue-500 hover:text-white hover:border-white font-bold text-base btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">
           Get Started
         </Link>
       </div>
