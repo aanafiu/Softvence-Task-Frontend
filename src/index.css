@@ -56,6 +56,16 @@ body{
   }
 }
 
+/* Footer Background */
+footer {
+  background-image: url("../src/assets/footerBG.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
 
 /* Gradiant */
 

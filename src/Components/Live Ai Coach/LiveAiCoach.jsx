@@ -48,9 +48,9 @@ const LiveAiCoach = () => {
             </div>
 
             {/* Main Content: Flexbox Layout */}
-            <div className="flex flex-col lg:flex-row min-h-[500px] h-fit gap-6">
+            <div className="flex flex-col lg:flex-row w-full min-h-[500px] h-fit gap-6">
                 {/* Left Side: Chat Section */}
-                <div className="flex flex-col  gap-6">
+                <div className="flex flex-col w-full gap-6">
                     <div className="bg-white text-Primary rounded-lg shadow-lg p-4 flex flex-col">
                         <div className="flex items-center mb-4">
                      
@@ -123,7 +123,7 @@ const LiveAiCoach = () => {
                 </div>
 
                 {/* Center: Control */}
-                <div className='flex justify-center lg:flex-col text-3xl gap-5 h-[70%] py-4 px-2 my-auto rounded-full bg-white text-Primary'>
+                <div className='flex justify-center lg:flex-col text-3xl gap-5 w-fit h-[70%] py-4 px-2 my-auto rounded-full bg-white text-Primary'>
                     <button className='hover:bg-blue-500 rounded-full p-2'><MdOutlineRestartAlt /></button>
                     <button className='hover:bg-blue-500 rounded-full p-2'><BiLike /></button>
                     <button className='hover:bg-blue-500 rounded-full p-2'><BiDislike /></button>

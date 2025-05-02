@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-import c1Image from "../../assets/c1image.png"
-import c2Image from "../../assets/c2image.png"
+
 const courses = [
   {
     title: "Web Design Fundamentals",

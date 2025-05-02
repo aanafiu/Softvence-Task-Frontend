@@ -1,7 +1,9 @@
 import { createBrowserRouter } from "react-router";
 import HomeLayout from "../Layouts/HomeLayout";
-import Hero from "../Components/Hero/Hero";
+
 import MainLayout from "../Layouts/MainLayout";
+import OnCOnstruction from "../Components/OnConstruction/OnCOnstruction";
+import LiveAiCoach from "../Components/Live Ai Coach/LiveAiCoach";
 
 export const router = createBrowserRouter([
   {
@@ -11,7 +13,11 @@ export const router = createBrowserRouter([
     errorElement: <div>Not Found</div>,
     children: [
       { path: "/", element: <HomeLayout /> },
-      { path: "/test", element: <div>This is Test Page</div> },
+      { path: "/about", element: <OnCOnstruction/>},
+      { path: "/pricing", element: <OnCOnstruction/>},
+      { path: "/consulting", element: <OnCOnstruction/>},
+      { path: "/courses", element: <OnCOnstruction/>},
+      { path: "/ai", element: <div className="blue-gradient mx-auto"><LiveAiCoach></LiveAiCoach></div>},
     ],
   },
   {

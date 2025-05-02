@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../Components/Navbar/Nav';
 
 import { Outlet } from 'react-router';
+import Footer from '../Components/Footer/Footer';
 
 const MainLayout = () => {
     return (
@@ -12,8 +13,8 @@ const MainLayout = () => {
             <section>
                 <Outlet></Outlet>
             </section>
-            <footer>
-                this is footer
+            <footer className='py-5 mt-[100px]'> 
+                <Footer></Footer>
             </footer>
         </div>
     );
