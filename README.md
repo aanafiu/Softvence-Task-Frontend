@@ -1,3 +1,12 @@
+Thanks! Based on your updated instructions, I’ve made the following changes:
+
+- ✅ Project title updated to `SalesRank.Ai`
+- ✅ Removed the **License** section
+- ✅ Added screenshots from a folder named `WebsiteScreenShots` (assuming the images are located at `./WebsiteScreenShots/`)
+
+Here's the revised `README.md`:
+
+---
 
 # SalesRank.Ai
 
@@ -12,9 +21,9 @@ This project is a modern web application built using Vite and React. It leverage
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Effects and Animations](#effects-and-animations)
+- [Screenshots](#screenshots)
 - [Configuration](#configuration)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -24,7 +33,7 @@ To set up the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/aanafiu/Softvence-Task-Frontend
-   cd your-repo-name
+   cd Softvence-Task-Frontend
    ```
 
 2. **Install dependencies:**
@@ -64,9 +73,22 @@ Once the development server is running, open your browser and navigate to `http:
 - **Animate.css:** For predefined CSS animations.
 - **Lottie:** For rendering high-quality animations.
 
+## Screenshots
+
+Here are some previews of the application:
+
+![Homepage](./WebpagesScreenShots/home.png)
+![LiveAI](./WebpagesScreenShots/liveai.png)
+![Courses](./WebpagesScreenShots/Courses.png)
+![FAQ](./WebpagesScreenShots/FAQ.png)
+![Footer](./WebpagesScreenShots/footer.png)
+
+> ℹ️ Ensure the `WebsiteScreenShots` folder and image files are included in your project and committed to your repository for these to render correctly.
+
 ## Configuration
 
 Ensure that your development environment meets the following requirements:
+
 - **npm:** Version 6 or higher.
 
 All configuration files are located in the root directory of the project.
@@ -75,5 +97,6 @@ All configuration files are located in the root directory of the project.
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
+---
 
-Would you like me to include example code snippets or screenshots in the README as well?
+Let me know if you want captions, alt text, or image links adjusted for web hosting instead of local files.
