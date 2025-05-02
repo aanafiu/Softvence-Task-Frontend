@@ -3,7 +3,8 @@ import React from 'react';
 import constructionAnimation from '../../assets/OnConstruction.json';
 const OnCOnstruction = () => {
     return (
-        <div className='my-10'>
+        <div data-aos="fade-up"
+        data-aos-duration="2000" className='my-10'>
             <div className='flex justify-center w-[500px] h-full mx-auto'>
             <Lottie animationData={constructionAnimation}></Lottie>
             </div>

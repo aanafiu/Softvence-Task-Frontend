@@ -18,11 +18,11 @@ const Nav = () => {
         {/* Navigation links */}
         <nav className=" w-fit ml-8 hidden md:flex md:items-center ">
           <div className="flex gap-4 font-PJS font-semibold text-Primary whitespace-nowrap text-sm">
-            <Link to="/">Home</Link>
-            <Link to="about">About</Link>
-            <Link to="/pricing">Pricing</Link>
-            <Link to="/consulting">Consulting</Link>
-            <Link to="/ai">Ai Coach</Link>
+            <Link to="/" className="hover:scale-110">Home</Link>
+            <Link to="about" className="hover:scale-110">About</Link>
+            <Link to="/pricing" className="hover:scale-110">Pricing</Link>
+            <Link to="/consulting" className="hover:scale-110">Consulting</Link>
+            <Link to="/ai" className="hover:scale-110">Ai Coach</Link>
           </div>
         </nav>
       </section>

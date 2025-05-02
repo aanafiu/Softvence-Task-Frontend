@@ -40,7 +40,8 @@ const LiveAiCoach = () => {
     };
 
     return (
-        <div className="my-12 py-12 w-[95%] sm:w-[90%] md:w-[85%] lg:w-[75%] mx-auto text-white">
+        <div data-aos="fade-up"
+        data-aos-duration="2000" className="my-12 py-[60px] w-[95%] sm:w-[90%] md:w-[85%] lg:w-[75%] mx-auto text-white">
             {/* Headline */}
             <div className="mb-6">
                 <p className="text-[#FCE38A] font-PJS text-2xl">Live AI Coach</p>

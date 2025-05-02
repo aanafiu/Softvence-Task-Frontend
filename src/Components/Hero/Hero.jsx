@@ -46,7 +46,7 @@ const Hero = () => {
     return () => clearInterval(counter); // Cleanup on unmount
   }, []);
   return (
-    <div className="flex flex-col md:flex-row justify-between items-center gap-10">
+    <div data-aos="zoom-in-up" data-aos-duration="2000" className="flex flex-col md:flex-row justify-between items-center gap-10">
       {/* Left */}
       <div class="w-full h-full my-10 text-center md:text-left space-y-5">
         <h1 className="text-5xl sm:text-4xl md:text-6xl font-medium text-Secondary font-Mrp">
