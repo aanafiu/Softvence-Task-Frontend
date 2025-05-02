@@ -4,6 +4,8 @@ import { HiOutlineSpeakerWave } from 'react-icons/hi2';
 import { MdOutlineContentCopy, MdOutlineRestartAlt } from 'react-icons/md';
 import MessageLogo from "../../assets/Message.png";
 import ScriptLogo from "../../assets/script.png";
+import ConfidentLogo from "../../assets/Frame.png";
+import CorrectLogo from "../../assets/Nodes.png";
 
 const LiveAiCoach = () => {
     const [messages, setMessages] = useState([
@@ -136,7 +138,7 @@ const LiveAiCoach = () => {
                         <h2 className="text-2xl text-Primary font-semibold mb-4">Real-time Analysis</h2>
                         <div className="mb-4 bg-white rounded-lg p-4">
                             <div className="flex justify-between items-center mb-2">
-                                <span className="text-green-500 font-medium">Confidence Level</span>
+                                <span className="text-green-500 font-medium flex gap-2"><span><img src={CorrectLogo} alt="" /></span>Confidence Level</span>
                                 <span>80%</span>
                             </div>
                             <div className="w-full bg-AiBG rounded-full h-2.5">
@@ -145,7 +147,7 @@ const LiveAiCoach = () => {
                         </div>
                         <div className='bg-white rounded-lg p-4'>
                             <div className="flex justify-between items-center mb-2">
-                                <span className="text-red-500 font-medium">Confidence Level</span>
+                                <span className="text-red-500 font-medium flex gap-2"><span><img src={ConfidentLogo} alt="" /></span>Confidence Level</span>
                                 <span>85%</span>
                             </div>
                             <p className="text-sm text-gray-600">85% improvement in objection handling</p>
@@ -162,7 +164,7 @@ const LiveAiCoach = () => {
                             </button>
                             <button className="bg-gray-100 text-AiBtn font-Mrp font-bold text-xl flex-1 px-4 py-2 rounded-lg hover:bg-gray-200 text-left gap-2">
     
-                                <img src={ScriptLogo} alt="" className="w-fit h-fit object-left" />
+                                <img src={MessageLogo} alt="" className="w-fit h-fit object-left" />
                                 Practice Pitch
                             </button>
                         </div>

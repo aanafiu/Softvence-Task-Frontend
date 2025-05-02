@@ -61,7 +61,7 @@ const Nav = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute flex flex-col justify-center items-center w-full top-[80px] blue-gradient md:hidden">
+        <div className="absolute flex flex-col justify-center items-center w-full top-[85px] blue-gradient md:hidden">
           <Link
             to="/"
             className=" px-4 py-3 text-sm border-b-2 w-full text-center"
