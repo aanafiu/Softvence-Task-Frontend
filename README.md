@@ -1,13 +1,3 @@
-Thanks! Based on your updated instructions, I’ve made the following changes:
-
-- ✅ Project title updated to `SalesRank.Ai`
-- ✅ Removed the **License** section
-- ✅ Added screenshots from a folder named `WebsiteScreenShots` (assuming the images are located at `./WebsiteScreenShots/`)
-
-Here's the revised `README.md`:
-
----
-
 # SalesRank.Ai
 
 ## Introduction
@@ -83,8 +73,6 @@ Here are some previews of the application:
 ![FAQ](./WebpagesScreenShots/FAQ.png)
 ![Footer](./WebpagesScreenShots/footer.png)
 
-> ℹ️ Ensure the `WebsiteScreenShots` folder and image files are included in your project and committed to your repository for these to render correctly.
-
 ## Configuration
 
 Ensure that your development environment meets the following requirements:
@@ -96,7 +84,3 @@ All configuration files are located in the root directory of the project.
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
-
----
-
-Let me know if you want captions, alt text, or image links adjusted for web hosting instead of local files.
